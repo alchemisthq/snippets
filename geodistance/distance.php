@@ -39,7 +39,7 @@ function distance($lat1, $lng1, $lat2, $lng2, $miles = true)
  */
 if(count($argv)!=3)
 {
-	echo '[ERROR] Requires 2 parameters exactly'.PHP_EOL;
+	echo '[ERROR] Requires exactly 2 parameters'.PHP_EOL;
 }
 /**
  * Separate the latitude and longitudes
